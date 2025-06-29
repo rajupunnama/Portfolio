@@ -900,14 +900,19 @@
           document.addEventListener('DOMContentLoaded', function () {
                const themeToggle = document.getElementById('theme-toggle');
                const themeIcon = document.getElementById('theme-icon');
+               const navbarElement = document.getElementsByTagName('nav');
                const htmlElement = document.documentElement;
-
+;
                // Check for saved theme preference or use preferred color scheme
                const savedTheme = localStorage.getItem('theme');
                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
                if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
                     htmlElement.setAttribute('data-bs-theme', 'dark');
+                    navbarElement.classList.remove('navbar-light');
+                    navbarElement.classList.add('navbar-dark');
+                    navbarElement.classList.remove('bg-light');
+                    navbarElement.classList.add('bg-dark');
                     themeIcon.classList.remove('bi-moon-fill');
                     themeIcon.classList.add('bi-sun-fill');
                }
@@ -916,11 +921,19 @@
                themeToggle.addEventListener('click', function () {
                     if (htmlElement.getAttribute('data-bs-theme') === 'dark') {
                          htmlElement.setAttribute('data-bs-theme', 'light');
+                         navbarElement.classList.remove('navbar-light');
+                         navbarElement.classList.add('navbar-dark');
+                         navbarElement.classList.remove('bg-light');
+                         navbarElement.classList.add('bg-dark');
                          themeIcon.classList.remove('bi-sun-fill');
                          themeIcon.classList.add('bi-moon-fill');
                          localStorage.setItem('theme', 'light');
                     } else {
                          htmlElement.setAttribute('data-bs-theme', 'dark');
+                         navbarElement.classList.remove('navbar-dark');
+                         navbarElement.classList.add('navbar-light');
+                         navbarElement.classList.remove('bg-dark');
+                         navbarElement.classList.add('bg-light');
                          themeIcon.classList.remove('bi-moon-fill');
                          themeIcon.classList.add('bi-sun-fill');
                          localStorage.setItem('theme', 'dark');
