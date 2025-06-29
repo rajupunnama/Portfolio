@@ -1,0 +1,963 @@
+<html lang="en" data-bs-theme="light">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Power Platform Developer Portfolio</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+          rel="stylesheet">
+<!--<style></style> -->
+     <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Navigation -->
+     <!-- <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light shadow-sm theme-transition"
+          data-bs-theme="auto"> -->
+     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light shadow-sm theme-transition"
+          data-bs-theme="auto">
+          <div class="container">
+               <a class="navbar-brand d-flex align-items-center" href="#">
+                    <svg class="me-2" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                         <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="var(--primary-color)"></path>
+                         <path d="M2 17L12 22L22 17" stroke="var(--primary-color)" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                         <path d="M2 12L12 17L22 12" stroke="var(--primary-color)" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span class="fw-bold">PowerDev</span>
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                         <li class="nav-item">
+                              <a class="nav-link" href="#home">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#about">About</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#skills">Skills</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#projects">Projects</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#testimonials">Testimonials</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#contact">Contact</a>
+                         </li>
+                         <li class="nav-item ms-2">
+                              <button id="theme-toggle" class="btn btn-sm btn-outline-secondary rounded-circle">
+                                   <i id="theme-icon" class="bi bi-moon-fill theme-icon"></i>
+                              </button>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+
+     <!-- Hero Section -->
+     <section id="home" class="gradient-bg text-white py-5 py-md-6">
+          <div class="container py-5">
+               <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                         <h1 class="display-4 fw-bold mb-4">Power Platform Developer</h1>
+                         <p class="lead mb-4">Transforming business processes with innovative low-code solutions</p>
+                         <div class="d-flex flex-wrap gap-3">
+                              <a href="#contact"
+                                   class="btn btn-light text-primary fw-medium px-4 py-2 rounded-pill">Hire Me</a>
+                              <a href="#projects" class="btn btn-outline-light fw-medium px-4 py-2 rounded-pill">View
+                                   Projects</a>
+                         </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                         <svg class="hero-svg" width="400" height="400" viewBox="0 0 200 200"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path fill="#ffffff"
+                                   d="M47.7,-57.2C59.9,-45.8,67.2,-29.1,69.2,-12.1C71.2,4.9,68,22.2,58.8,35.1C49.7,48,34.6,56.5,18.9,61.3C3.3,66.1,-12.9,67.1,-27.7,62C-42.5,56.8,-55.9,45.5,-64.4,30.6C-72.9,15.7,-76.5,-2.8,-71.3,-18.9C-66.1,-35,-52.1,-48.8,-37,-57.2C-21.9,-65.6,-5.7,-68.7,9.5,-79.3C24.7,-89.9,49.4,-108,47.7,-57.2Z"
+                                   transform="translate(100 100)"></path>
+                              <circle cx="100" cy="100" r="60" fill="var(--primary-color)" opacity="0.2"></circle>
+                              <path d="M85,60 L115,60 L115,140 L85,140 Z" fill="var(--primary-color)"></path>
+                              <path d="M60,80 L90,80 L90,140 L60,140 Z" fill="var(--secondary-color)"></path>
+                              <path d="M110,100 L140,100 L140,140 L110,140 Z" fill="var(--primary-color-dark)"></path>
+                         </svg>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- About Section -->
+     <section id="about" class="py-5 py-md-6 bg-body-tertiary">
+          <div class="container py-5">
+               <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">About Me</h2>
+                    <div class="mx-auto" style="width: 100px; height: 3px; background-color: var(--primary-color);">
+                    </div>
+               </div>
+               <div class="row align-items-center">
+                    <div class="col-lg-4 mb-4 mb-lg-0 text-center">
+                         <div class="position-relative mx-auto" style="width: 250px; height: 250px;">
+                              <div class="rounded-circle overflow-hidden border border-4 border-primary shadow-lg"
+                                   style="width: 250px; height: 250px;">
+                                   <svg class="w-100 h-100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="35" r="20" fill="var(--primary-color)"></circle>
+                                        <circle cx="50" cy="30" r="15" fill="var(--bs-body-bg)"></circle>
+                                        <path d="M30,70 Q50,95 70,70 Q70,85 50,95 Q30,85 30,70 Z"
+                                             fill="var(--primary-color)"></path>
+                                   </svg>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-8">
+                         <h3 class="h2 fw-semibold mb-3">Power Platform Expert &amp; Solution Architect</h3>
+                         <p class="mb-4">With over 5 years of experience in Microsoft Power Platform, I specialize in
+                              creating efficient business solutions using Power Apps, Power Automate, Power BI, and
+                              Power Virtual Agents. My expertise lies in translating complex business requirements into
+                              elegant low-code solutions that drive productivity and innovation.</p>
+                         <p class="mb-4">I'm passionate about helping organizations leverage the full potential of the
+                              Power Platform ecosystem to automate processes, analyze data, and create seamless user
+                              experiences. My approach combines technical expertise with a deep understanding of
+                              business needs.</p>
+                         <div class="d-flex flex-wrap gap-3">
+                              <div class="badge bg-primary bg-opacity-10 text-primary p-2 px-3 fs-6">
+                                   <i class="bi bi-briefcase me-2"></i>
+                                   5+ Years Experience
+                              </div>
+                              <div class="badge bg-primary bg-opacity-10 text-primary p-2 px-3 fs-6">
+                                   <i class="bi bi-award me-2"></i>
+                                   Microsoft Certified
+                              </div>
+                              <div class="badge bg-primary bg-opacity-10 text-primary p-2 px-3 fs-6">
+                                   <i class="bi bi-check-circle me-2"></i>
+                                   50+ Projects Delivered
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Skills Section -->
+     <section id="skills" class="py-5 py-md-6">
+          <div class="container py-5">
+               <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">My Skills</h2>
+                    <div class="mx-auto" style="width: 100px; height: 3px; background-color: var(--primary-color);">
+                    </div>
+                    <p class="lead mt-3 mx-auto" style="max-width: 700px;">Specialized in Microsoft Power Platform and
+                         related technologies to deliver comprehensive business solutions.</p>
+               </div>
+
+               <div class="row g-4">
+                    <!-- Power Apps -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-purple-100"
+                                             style="background-color: rgba(168, 85, 247, 0.1);">
+                                             <i class="bi bi-grid-3x3-gap text-purple-500 fs-4"
+                                                  style="color: #8b5cf6;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Power Apps</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Canvas
+                                             Apps Development</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Model-driven
+                                             Apps</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Portals
+                                             &amp; Custom Connectors</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Component
+                                             Framework</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Power Automate -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-blue-100"
+                                             style="background-color: rgba(59, 130, 246, 0.1);">
+                                             <i class="bi bi-arrow-left-right text-blue-500 fs-4"
+                                                  style="color: #3b82f6;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Power Automate</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Cloud
+                                             Flows</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Business
+                                             Process Flows</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>UI Flows
+                                             (RPA)</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Custom
+                                             Connectors</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Power BI -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-yellow-100"
+                                             style="background-color: rgba(245, 158, 11, 0.1);">
+                                             <i class="bi bi-bar-chart-fill text-yellow-500 fs-4"
+                                                  style="color: #f59e0b;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Power BI</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Data
+                                             Modeling</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>DAX &amp;
+                                             M Formulas</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Report
+                                             Development</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Dashboard
+                                             Creation</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Power Virtual Agents -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-green-100"
+                                             style="background-color: rgba(16, 185, 129, 0.1);">
+                                             <i class="bi bi-chat-dots-fill text-green-500 fs-4"
+                                                  style="color: #10b981;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Virtual Agents</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Chatbot
+                                             Development</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Topic
+                                             Management</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Entity
+                                             Extraction</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Integration
+                                             with Flows</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Dataverse -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-indigo-100"
+                                             style="background-color: rgba(99, 102, 241, 0.1);">
+                                             <i class="bi bi-database-fill text-indigo-500 fs-4"
+                                                  style="color: #6366f1;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Dataverse</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Data
+                                             Modeling</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Entity
+                                             Relationships</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Business
+                                             Rules</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Security
+                                             Roles</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Azure Integration -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-blue-100"
+                                             style="background-color: rgba(59, 130, 246, 0.1);">
+                                             <i class="bi bi-cloud-fill text-blue-500 fs-4" style="color: #3b82f6;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Azure Integration</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Azure
+                                             Functions</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Logic Apps
+                                        </li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>API
+                                             Management</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Azure AD
+                                             Integration</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- SharePoint Integration -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-green-100"
+                                             style="background-color: rgba(16, 185, 129, 0.1);">
+                                             <i class="bi bi-file-earmark-text-fill text-green-500 fs-4"
+                                                  style="color: #10b981;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">SharePoint</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>List &amp;
+                                             Library Management</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Power Apps
+                                             Integration</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>Flow
+                                             Automation</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>Custom Forms
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Development -->
+                    <div class="col-md-6 col-lg-3">
+                         <div class="card h-100 border-0 shadow-sm skill-badge">
+                              <div class="card-body">
+                                   <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle p-2 bg-red-100"
+                                             style="background-color: rgba(239, 68, 68, 0.1);">
+                                             <i class="bi bi-code-slash text-red-500 fs-4" style="color: #ef4444;"></i>
+                                        </div>
+                                        <h3 class="card-title h5 ms-3 mb-0">Development</h3>
+                                   </div>
+                                   <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>JavaScript
+                                             &amp; TypeScript</li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>HTML/CSS
+                                        </li>
+                                        <li class="mb-2"><i
+                                                  class="bi bi-check-circle-fill me-2 text-success small"></i>C# &amp;
+                                             .NET</li>
+                                        <li><i class="bi bi-check-circle-fill me-2 text-success small"></i>REST API
+                                             Integration</li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Projects Section -->
+     <section id="projects" class="py-5 py-md-6 bg-body-tertiary">
+          <div class="container py-5">
+               <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Featured Projects</h2>
+                    <div class="mx-auto" style="width: 100px; height: 3px; background-color: var(--primary-color);">
+                    </div>
+                    <p class="lead mt-3 mx-auto" style="max-width: 700px;">A selection of my most impactful Power
+                         Platform solutions across various industries.</p>
+               </div>
+
+               <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #4361ee, #7209b7); height: 200px;">
+                                   <i class="bi bi-clipboard-check fs-1 mb-3"></i>
+                                   <h3 class="h5">Enterprise Approval System</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">A comprehensive approval workflow system built with Power Apps
+                                        and Power Automate for a Fortune 500 company, handling over 1,000 requests
+                                        monthly.</p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Power Apps</span>
+                                        <span class="badge bg-success bg-opacity-10 text-success">Power Automate</span>
+                                        <span class="badge bg-purple bg-opacity-10 text-purple"
+                                             style="color: #8b5cf6; background-color: rgba(139, 92, 246, 0.1);">Dataverse</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project1Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project1Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Multi-level approval workflows with delegation</li>
+                                                  <li>Document generation with templates</li>
+                                                  <li>Integration with SAP for financial data</li>
+                                                  <li>Real-time dashboards and reporting</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Reduced approval time by 65% and improved compliance
+                                                  tracking by 40%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #10b981, #059669); height: 200px;">
+                                   <i class="bi bi-graph-up fs-1 mb-3"></i>
+                                   <h3 class="h5">Sales Performance Dashboard</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">An interactive Power BI dashboard integrated with Power Apps for
+                                        a retail chain, providing real-time sales analytics and performance metrics.</p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-warning bg-opacity-10 text-warning">Power BI</span>
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Power Apps</span>
+                                        <span class="badge bg-danger bg-opacity-10 text-danger">SQL Server</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project2Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project2Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Interactive drill-down capabilities</li>
+                                                  <li>Predictive sales forecasting</li>
+                                                  <li>Territory management integration</li>
+                                                  <li>Mobile-optimized for field sales teams</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Increased sales team productivity by 28% and improved
+                                                  forecast accuracy by 35%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #6366f1, #4f46e5); height: 200px;">
+                                   <i class="bi bi-chat-dots fs-1 mb-3"></i>
+                                   <h3 class="h5">Customer Service Chatbot</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">An AI-powered virtual agent built with Power Virtual Agents to
+                                        handle customer inquiries for a telecommunications company.</p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-success bg-opacity-10 text-success">Power Virtual
+                                             Agents</span>
+                                        <span class="badge bg-success bg-opacity-10 text-success">Power Automate</span>
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Azure Cognitive
+                                             Services</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project3Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project3Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Natural language processing for customer queries</li>
+                                                  <li>Integration with customer database</li>
+                                                  <li>Automated ticket creation and routing</li>
+                                                  <li>Seamless handoff to human agents when needed</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Reduced call center volume by 45% and improved
+                                                  first-contact resolution rate by 30%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #ef4444, #dc2626); height: 200px;">
+                                   <i class="bi bi-tools fs-1 mb-3"></i>
+                                   <h3 class="h5">Field Service Mobile App</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">A mobile-first Power App for field technicians in a utility
+                                        company, enabling real-time work order management and data collection.</p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Power Apps</span>
+                                        <span class="badge bg-success bg-opacity-10 text-success">Power Automate</span>
+                                        <span class="badge bg-purple bg-opacity-10 text-purple"
+                                             style="color: #8b5cf6; background-color: rgba(139, 92, 246, 0.1);">Dataverse</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project4Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project4Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Offline capability for remote areas</li>
+                                                  <li>GPS integration for route optimization</li>
+                                                  <li>Digital forms with photo capture</li>
+                                                  <li>Real-time synchronization with backend systems</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Increased field technician productivity by 32% and reduced
+                                                  paperwork processing time by 85%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #8b5cf6, #7c3aed); height: 200px;">
+                                   <i class="bi bi-people fs-1 mb-3"></i>
+                                   <h3 class="h5">HR Employee Portal</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">A comprehensive HR portal built with Power Apps Portal,
+                                        providing self-service capabilities for employees across a global organization.
+                                   </p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Power Apps
+                                             Portals</span>
+                                        <span class="badge bg-success bg-opacity-10 text-success">Power Automate</span>
+                                        <span class="badge bg-warning bg-opacity-10 text-warning">SharePoint</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project5Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project5Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Employee self-service for time-off requests</li>
+                                                  <li>Performance review management</li>
+                                                  <li>Training and certification tracking</li>
+                                                  <li>Company news and document repository</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Reduced HR administrative tasks by 60% and improved
+                                                  employee satisfaction scores by 25%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm project-card overflow-hidden">
+                              <div class="card-img-top p-4 text-center text-white"
+                                   style="background: linear-gradient(135deg, #f59e0b, #d97706); height: 200px;">
+                                   <i class="bi bi-box-seam fs-1 mb-3"></i>
+                                   <h3 class="h5">Inventory Management System</h3>
+                              </div>
+                              <div class="card-body">
+                                   <p class="card-text">A comprehensive inventory tracking solution built with Power
+                                        Apps and Dataverse for a manufacturing company, with barcode scanning
+                                        capabilities.</p>
+                                   <div class="d-flex flex-wrap gap-2 mb-3">
+                                        <span class="badge bg-primary bg-opacity-10 text-primary">Power Apps</span>
+                                        <span class="badge bg-purple bg-opacity-10 text-purple"
+                                             style="color: #8b5cf6; background-color: rgba(139, 92, 246, 0.1);">Dataverse</span>
+                                        <span class="badge bg-danger bg-opacity-10 text-danger">PCF Components</span>
+                                   </div>
+                                   <button class="btn btn-link text-primary p-0" data-bs-toggle="collapse"
+                                        data-bs-target="#project6Details" aria-expanded="false">
+                                        View Details <i class="bi bi-chevron-down"></i>
+                                   </button>
+                                   <div class="collapse mt-3" id="project6Details">
+                                        <div class="card card-body bg-light border-0">
+                                             <h6 class="fw-bold mb-2">Key Features:</h6>
+                                             <ul class="mb-3">
+                                                  <li>Barcode scanning with mobile camera</li>
+                                                  <li>Real-time inventory tracking</li>
+                                                  <li>Automated reorder notifications</li>
+                                                  <li>Integration with ERP system</li>
+                                             </ul>
+                                             <h6 class="fw-bold mb-2">Results:</h6>
+                                             <p class="mb-0">Reduced inventory discrepancies by 75% and improved stock
+                                                  turnover by 22%.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Testimonials Section -->
+     <section id="testimonials" class="py-5 py-md-6">
+          <div class="container py-5">
+               <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Client Testimonials</h2>
+                    <div class="mx-auto" style="width: 100px; height: 3px; background-color: var(--primary-color);">
+                    </div>
+                    <p class="lead mt-3 mx-auto" style="max-width: 700px;">What clients say about working with me on
+                         their Power Platform projects.</p>
+               </div>
+
+               <div class="row g-4">
+                    <!-- Testimonial 1 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm">
+                              <div class="card-body p-4">
+                                   <div class="testimonial-quote mb-4">
+                                        <p class="fst-italic">"The approval system developed for our company has
+                                             transformed how we manage our business processes. The solution is
+                                             intuitive, reliable, and has significantly reduced our approval times."</p>
+                                   </div>
+                                   <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-primary bg-opacity-10 d-flex align-items-center justify-content-center"
+                                             style="width: 50px; height: 50px;">
+                                             <span class="fw-bold text-primary">JD</span>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="mb-0 fs-6 fw-bold">John Doe</h5>
+                                             <p class="mb-0 text-muted small">CIO, Global Manufacturing Inc.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm">
+                              <div class="card-body p-4">
+                                   <div class="testimonial-quote mb-4">
+                                        <p class="fst-italic">"The sales dashboard created for our team provides
+                                             invaluable insights that have directly contributed to our revenue growth.
+                                             The ability to access real-time data on mobile devices has been a
+                                             game-changer for our field sales team."</p>
+                                   </div>
+                                   <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-primary bg-opacity-10 d-flex align-items-center justify-content-center"
+                                             style="width: 50px; height: 50px;">
+                                             <span class="fw-bold text-primary">AS</span>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="mb-0 fs-6 fw-bold">Amanda Smith</h5>
+                                             <p class="mb-0 text-muted small">Sales Director, Retail Solutions Co.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="col-md-6 col-lg-4">
+                         <div class="card h-100 border-0 shadow-sm">
+                              <div class="card-body p-4">
+                                   <div class="testimonial-quote mb-4">
+                                        <p class="fst-italic">"Our customer service chatbot has exceeded all
+                                             expectations. It handles over 60% of our customer inquiries automatically,
+                                             allowing our team to focus on more complex issues. The implementation was
+                                             smooth and the ongoing support has been excellent."</p>
+                                   </div>
+                                   <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-primary bg-opacity-10 d-flex align-items-center justify-content-center"
+                                             style="width: 50px; height: 50px;">
+                                             <span class="fw-bold text-primary">RJ</span>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="mb-0 fs-6 fw-bold">Robert Johnson</h5>
+                                             <p class="mb-0 text-muted small">Customer Service Manager, TeleCom Services
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="py-5 py-md-6 bg-body-tertiary">
+          <div class="container py-5">
+               <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Get In Touch</h2>
+                    <div class="mx-auto" style="width: 100px; height: 3px; background-color: var(--primary-color);">
+                    </div>
+                    <p class="lead mt-3 mx-auto" style="max-width: 700px;">Interested in working together? Let's discuss
+                         how I can help with your Power Platform needs.</p>
+               </div>
+
+               <div class="row g-4">
+                    <div class="col-lg-5">
+                         <div class="card border-0 shadow-sm h-100">
+                              <div class="card-body p-4">
+                                   <h3 class="h4 fw-bold mb-4">Contact Information</h3>
+                                   <div class="d-flex mb-4">
+                                        <div class="flex-shrink-0">
+                                             <i class="bi bi-envelope text-primary fs-4"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="fs-6 fw-bold">Email</h5>
+                                             <p class="mb-0">contact@powerdevportfolio.com</p>
+                                        </div>
+                                   </div>
+                                   <div class="d-flex mb-4">
+                                        <div class="flex-shrink-0">
+                                             <i class="bi bi-telephone text-primary fs-4"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="fs-6 fw-bold">Phone</h5>
+                                             <p class="mb-0">+1 (555) 123-4567</p>
+                                        </div>
+                                   </div>
+                                   <div class="d-flex mb-4">
+                                        <div class="flex-shrink-0">
+                                             <i class="bi bi-geo-alt text-primary fs-4"></i>
+                                        </div>
+                                        <div class="ms-3">
+                                             <h5 class="fs-6 fw-bold">Location</h5>
+                                             <p class="mb-0">Seattle, WA, United States</p>
+                                        </div>
+                                   </div>
+
+                                   <h4 class="h5 fw-bold mt-5 mb-3">Connect With Me</h4>
+                                   <div class="d-flex gap-3">
+                                        <a href="#" class="btn btn-primary rounded-circle p-2">
+                                             <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-info text-white rounded-circle p-2">
+                                             <i class="bi bi-twitter"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-dark rounded-circle p-2">
+                                             <i class="bi bi-github"></i>
+                                        </a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                         <div class="card border-0 shadow-sm">
+                              <div class="card-body p-4">
+                                   <h3 class="h4 fw-bold mb-4">Send Me a Message</h3>
+                                   <form id="contact-form">
+                                        <div class="row g-3">
+                                             <div class="col-md-6">
+                                                  <label for="name" class="form-label">Name</label>
+                                                  <input type="text" class="form-control" id="name" required="">
+                                             </div>
+                                             <div class="col-md-6">
+                                                  <label for="email" class="form-label">Email</label>
+                                                  <input type="email" class="form-control" id="email" required="">
+                                             </div>
+                                             <div class="col-12">
+                                                  <label for="subject" class="form-label">Subject</label>
+                                                  <input type="text" class="form-control" id="subject" required="">
+                                             </div>
+                                             <div class="col-12">
+                                                  <label for="message" class="form-label">Message</label>
+                                                  <textarea class="form-control" id="message" rows="5"
+                                                       required=""></textarea>
+                                             </div>
+                                             <div class="col-12">
+                                                  <button type="submit" class="btn btn-primary w-100 py-2">Send
+                                                       Message</button>
+                                             </div>
+                                        </div>
+                                   </form>
+                                   <div class="alert alert-success mt-4 d-none" id="form-success">
+                                        Thank you for your message! I'll get back to you soon.
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Footer -->
+     <footer class="bg-dark text-white py-5">
+          <div class="container">
+               <div class="row g-4">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                         <div class="d-flex align-items-center mb-3">
+                              <svg class="me-2" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                   <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#ffffff"></path>
+                                   <path d="M2 17L12 22L22 17" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                   <path d="M2 12L12 17L22 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                              </svg>
+                              <span class="h5 mb-0">PowerDev</span>
+                         </div>
+                         <p class="text-muted">Transforming business processes with innovative Power Platform solutions.
+                         </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2">
+                         <h5 class="fs-6 fw-bold mb-3">Quick Links</h5>
+                         <ul class="list-unstyled">
+                              <li class="mb-2"><a href="#home" class="text-decoration-none text-muted">Home</a></li>
+                              <li class="mb-2"><a href="#about" class="text-decoration-none text-muted">About</a></li>
+                              <li class="mb-2"><a href="#skills" class="text-decoration-none text-muted">Skills</a></li>
+                              <li><a href="#projects" class="text-decoration-none text-muted">Projects</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                         <h5 class="fs-6 fw-bold mb-3">Services</h5>
+                         <ul class="list-unstyled">
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Power Apps</a></li>
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Power Automate</a>
+                              </li>
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Power BI</a></li>
+                              <li><a href="#" class="text-decoration-none text-muted">Consulting</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                         <h5 class="fs-6 fw-bold mb-3">Connect</h5>
+                         <ul class="list-unstyled">
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">LinkedIn</a></li>
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Twitter</a></li>
+                              <li class="mb-2"><a href="#" class="text-decoration-none text-muted">GitHub</a></li>
+                              <li><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+                         </ul>
+                    </div>
+               </div>
+               <hr class="my-4 border-secondary">
+               <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                         <p class="small text-muted mb-0">© 2023 PowerDev. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                         <p class="small text-muted mb-0">Designed with <i class="bi bi-heart-fill text-danger"></i> for
+                              Power Platform developers</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+     <!-- Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Custom JS -->
+     <script>
+          // Theme toggle functionality
+          document.addEventListener('DOMContentLoaded', function () {
+               const themeToggle = document.getElementById('theme-toggle');
+               const themeIcon = document.getElementById('theme-icon');
+               const htmlElement = document.documentElement;
+
+               // Check for saved theme preference or use preferred color scheme
+               const savedTheme = localStorage.getItem('theme');
+               const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+               if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+                    htmlElement.setAttribute('data-bs-theme', 'dark');
+                    themeIcon.classList.remove('bi-moon-fill');
+                    themeIcon.classList.add('bi-sun-fill');
+               }
+
+               // Toggle theme
+               themeToggle.addEventListener('click', function () {
+                    if (htmlElement.getAttribute('data-bs-theme') === 'dark') {
+                         htmlElement.setAttribute('data-bs-theme', 'light');
+                         themeIcon.classList.remove('bi-sun-fill');
+                         themeIcon.classList.add('bi-moon-fill');
+                         localStorage.setItem('theme', 'light');
+                    } else {
+                         htmlElement.setAttribute('data-bs-theme', 'dark');
+                         themeIcon.classList.remove('bi-moon-fill');
+                         themeIcon.classList.add('bi-sun-fill');
+                         localStorage.setItem('theme', 'dark');
+                    }
+               });
+
+               // Mobile menu toggle
+               const navbarToggler = document.querySelector('.navbar-toggler');
+               const navbarCollapse = document.querySelector('.navbar-collapse');
+
+               document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+                    link.addEventListener('click', () => {
+                         if (navbarCollapse.classList.contains('show')) {
+                              navbarToggler.click();
+                         }
+                    });
+               });
+
+               // Form submission
+               const contactForm = document.getElementById('contact-form');
+               const formSuccess = document.getElementById('form-success');
+
+               contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    // Simulate form submission
+                    contactForm.reset();
+                    formSuccess.classList.remove('d-none');
+                    setTimeout(() => {
+                         formSuccess.classList.add('d-none');
+                    }, 5000);
+               });
+          });
+     </script>
+     <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'956e7205b4fd4199',t:'MTc1MTEyNjkzMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+     <iframe height="1" width="1"
+          style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body>
+
+</html>
